@@ -4,17 +4,17 @@
     {
         static void Main(string[] args)
         {
-            InsertionSort insertionSort = new InsertionSort();
-            insertionSort.DisplayInserctionSort();
+            //InsertionSort insertionSort = new InsertionSort();
+            //insertionSort.DisplayInserctionSort();
 
-            BubbleSort bubbleSort = new BubbleSort();
-            bubbleSort.DisplayBubbleSort();
+            //BubbleSort bubbleSort = new BubbleSort();
+            //bubbleSort.DisplayBubbleSort();
 
-            Anagram anagram = new Anagram();
-            anagram.AnagramDisplay();
+            //Anagram anagram = new Anagram();
+            //anagram.AnagramDisplay();
 
             PrimeNumber primeNumber = new PrimeNumber();
-            primeNumber.FindPrimeNumber(1000);
+            primeNumber.FindPrimeNumber();
 
         }
     }
